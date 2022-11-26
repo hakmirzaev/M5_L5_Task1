@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0E9CA50129322C6B00ED3DC3 /* M5_L5_Task1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CA50029322C6B00ED3DC3 /* M5_L5_Task1App.swift */; };
-		0E9CA50329322C6B00ED3DC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CA50229322C6B00ED3DC3 /* ContentView.swift */; };
 		0E9CA50529322C6D00ED3DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9CA50429322C6D00ED3DC3 /* Assets.xcassets */; };
 		0E9CA50829322C6D00ED3DC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E9CA50729322C6D00ED3DC3 /* Preview Assets.xcassets */; };
 		0E9CA50A29322C6D00ED3DC3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CA50929322C6D00ED3DC3 /* Persistence.swift */; };
 		0E9CA50D29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CA50B29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodeld */; };
+		0E9CA51629322C9800ED3DC3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CA51529322C9800ED3DC3 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E9CA4FD29322C6B00ED3DC3 /* M5_L5_Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M5_L5_Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E9CA50029322C6B00ED3DC3 /* M5_L5_Task1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M5_L5_Task1App.swift; sourceTree = "<group>"; };
-		0E9CA50229322C6B00ED3DC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E9CA50429322C6D00ED3DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E9CA50729322C6D00ED3DC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E9CA50929322C6D00ED3DC3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0E9CA50C29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = M5_L5_Task1.xcdatamodel; sourceTree = "<group>"; };
+		0E9CA51529322C9800ED3DC3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,10 @@
 		0E9CA4FF29322C6B00ED3DC3 /* M5_L5_Task1 */ = {
 			isa = PBXGroup;
 			children = (
+				0E9CA51429322C8A00ED3DC3 /* screens */,
 				0E9CA50029322C6B00ED3DC3 /* M5_L5_Task1App.swift */,
-				0E9CA50229322C6B00ED3DC3 /* ContentView.swift */,
-				0E9CA50429322C6D00ED3DC3 /* Assets.xcassets */,
 				0E9CA50929322C6D00ED3DC3 /* Persistence.swift */,
-				0E9CA50B29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodeld */,
+				0E9CA51329322C7700ED3DC3 /* apputils */,
 				0E9CA50629322C6D00ED3DC3 /* Preview Content */,
 			);
 			path = M5_L5_Task1;
@@ -71,6 +70,23 @@
 				0E9CA50729322C6D00ED3DC3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E9CA51329322C7700ED3DC3 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CA50B29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodeld */,
+				0E9CA50429322C6D00ED3DC3 /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		0E9CA51429322C8A00ED3DC3 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CA51529322C9800ED3DC3 /* HomeScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9CA51629322C9800ED3DC3 /* HomeScreen.swift in Sources */,
 				0E9CA50A29322C6D00ED3DC3 /* Persistence.swift in Sources */,
 				0E9CA50D29322C6D00ED3DC3 /* M5_L5_Task1.xcdatamodeld in Sources */,
-				0E9CA50329322C6B00ED3DC3 /* ContentView.swift in Sources */,
 				0E9CA50129322C6B00ED3DC3 /* M5_L5_Task1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
